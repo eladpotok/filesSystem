@@ -1,5 +1,5 @@
 import { List } from "@mui/material";
-import { FileData, TreeData } from "../Data/TreeData";
+import { FileData } from "../Data/TreeData";
 import VisualTreeNode from "./VisualTreeNode";
 import ListSubheader from '@mui/material/ListSubheader';
 
