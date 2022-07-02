@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import VisualTree from './Components/VisualTree';
 import { readFiles } from './Utils/DirectoryFilesReader';
-import { FileData, TreeData } from './Data/TreeData';
+import { TreeData } from './Data/TreeData';
 
 function App() {
   const [data , setData] = useState<TreeData | null>(null);
